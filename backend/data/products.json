@@ -1,0 +1,171 @@
+[
+  {
+    "name": "Laptop",
+    "price": 50000,
+    "rating": 4.5,
+    "images": [
+      { "public_id": "products/laptop1", "url": "https://picsum.photos/id/1010/600/400" },
+      { "public_id": "products/laptop2", "url": "https://picsum.photos/id/1011/600/400" }
+    ]
+  },
+  {
+    "name": "Mobile",
+    "price": 25000,
+    "rating": 4.2,
+    "images": [
+      { "public_id": "products/mobile1", "url": "https://picsum.photos/id/1012/600/400" },
+      { "public_id": "products/mobile2", "url": "https://picsum.photos/id/1013/600/400" },
+      { "public_id": "products/mobile3", "url": "https://picsum.photos/id/1014/600/400" }
+    ]
+  },
+  {
+    "name": "Footwear",
+    "price": 3000,
+    "rating": 4.0,
+    "images": [
+      { "public_id": "products/footwear1", "url": "https://picsum.photos/id/1015/600/400" }
+    ]
+  },
+  {
+    "name": "Bottoms",
+    "price": 1200,
+    "rating": 3.8,
+    "images": [
+      { "public_id": "products/bottoms1", "url": "https://picsum.photos/id/1016/600/400" },
+      { "public_id": "products/bottoms2", "url": "https://picsum.photos/id/1017/600/400" }
+    ]
+  },
+  {
+    "name": "Tops",
+    "price": 1000,
+    "rating": 4.1,
+    "images": [
+      { "public_id": "products/tops1", "url": "https://picsum.photos/id/1018/600/400" }
+    ]
+  },
+  {
+    "name": "Attire",
+    "price": 1500,
+    "rating": 4.3,
+    "images": [
+      { "public_id": "products/attire1", "url": "https://picsum.photos/id/1019/600/400" },
+      { "public_id": "products/attire2", "url": "https://picsum.photos/id/1020/600/400" }
+    ]
+  },
+  {
+    "name": "Smartphones",
+    "price": 35000,
+    "rating": 4.4,
+    "images": [
+      { "public_id": "products/smartphones1", "url": "https://picsum.photos/id/1021/600/400" }
+    ]
+  },
+  {
+    "name": "Camera",
+    "price": 45000,
+    "rating": 4.6,
+    "images": [
+      { "public_id": "products/camera1", "url": "https://picsum.photos/id/1022/600/400" },
+      { "public_id": "products/camera2", "url": "https://picsum.photos/id/1023/600/400" },
+      { "public_id": "products/camera3", "url": "https://picsum.photos/id/1024/600/400" }
+    ]
+  },
+  {
+    "name": "Laptop Sleeve",
+    "price": 800,
+    "rating": 4.0,
+    "images": [
+      { "public_id": "products/laptopsleeve1", "url": "https://picsum.photos/id/1025/600/400" }
+    ]
+  },
+  {
+    "name": "Mobile Case",
+    "price": 500,
+    "rating": 3.9,
+    "images": [
+      { "public_id": "products/mobilecase1", "url": "https://picsum.photos/id/1026/600/400" },
+      { "public_id": "products/mobilecase2", "url": "https://picsum.photos/id/1027/600/400" }
+    ]
+  },
+  {
+    "name": "Sneakers",
+    "price": 3500,
+    "rating": 4.2,
+    "images": [
+      { "public_id": "products/sneakers1", "url": "https://picsum.photos/id/1028/600/400" }
+    ]
+  },
+  {
+    "name": "Jeans",
+    "price": 1500,
+    "rating": 4.0,
+    "images": [
+      { "public_id": "products/jeans1", "url": "https://picsum.photos/id/1029/600/400" }
+    ]
+  },
+  {
+    "name": "Shirts",
+    "price": 1200,
+    "rating": 3.7,
+    "images": [
+      { "public_id": "products/shirts1", "url": "https://picsum.photos/id/1030/600/400" }
+    ]
+  },
+  {
+    "name": "Jackets",
+    "price": 2500,
+    "rating": 4.5,
+    "images": [
+      { "public_id": "products/jackets1", "url": "https://picsum.photos/id/1031/600/400" }
+    ]
+  },
+  {
+    "name": "DSLR Camera",
+    "price": 55000,
+    "rating": 4.7,
+    "images": [
+      { "public_id": "products/dslrcamera1", "url": "https://picsum.photos/id/1032/600/400" }
+    ]
+  },
+  {
+    "name": "Headphones",
+    "price": 2000,
+    "rating": 4.3,
+    "images": [
+      { "public_id": "products/headphones1", "url": "https://picsum.photos/id/1033/600/400" },
+      { "public_id": "products/headphones2", "url": "https://picsum.photos/id/1034/600/400" }
+    ]
+  },
+  {
+    "name": "Smartwatch",
+    "price": 5000,
+    "rating": 4.1,
+    "images": [
+      { "public_id": "products/smartwatch1", "url": "https://picsum.photos/id/1035/600/400" }
+    ]
+  },
+  {
+    "name": "Tablet",
+    "price": 22000,
+    "rating": 4.2,
+    "images": [
+      { "public_id": "products/tablet1", "url": "https://picsum.photos/id/1036/600/400" }
+    ]
+  },
+  {
+    "name": "Sports Shoes",
+    "price": 4000,
+    "rating": 4.3,
+    "images": [
+      { "public_id": "products/sportsshoes1", "url": "https://picsum.photos/id/1037/600/400" }
+    ]
+  },
+  {
+    "name": "Formal Shoes",
+    "price": 3500,
+    "rating": 4.0,
+    "images": [
+      { "public_id": "products/formalshoes1", "url": "https://picsum.photos/id/1038/600/400" }
+    ]
+  }
+]

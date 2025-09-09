@@ -81,13 +81,18 @@
   font-size: 4vmax;
 }
 
-.youtubeSvgIcon {
-  color: tomato;
+.socialIcon {
+  color: #333; /* default black */
+  font-size: 40px; /* icon size */
+  margin: 0 10px; /* spacing between icons */
+  transition: 0.3s;
+  cursor: pointer;
 }
 
-.instagramSvgIcon {
-  color: rgb(144, 81, 202);
+.socialIcon:hover {
+  color: #0077b5; /* LinkedIn blue on hover (ya custom color) */
 }
+
 
 @media screen and (max-width: 600px) {
   .aboutSectionContainer > div {
@@ -121,4 +126,9 @@
     font-size: 6vmax;
     margin: 1vmax;
   }
+
+
+
+  
+
 }

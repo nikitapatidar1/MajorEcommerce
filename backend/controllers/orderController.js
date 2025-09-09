@@ -4,6 +4,35 @@ const ErrorHander = require("../utils/errorhander");
 const catchAsyncErrors = require("../middleware/catchAsyncErrors");
 
 // Create new Order
+// exports.newOrder = catchAsyncErrors(async (req, res, next) => {
+//   const {
+//     shippingInfo,
+//     orderItems,
+//     paymentInfo,
+//     itemsPrice,
+//     taxPrice,
+//     shippingPrice,
+//     totalPrice,
+//   } = req.body;
+
+//   const order = await Order.create({
+//     shippingInfo,
+//     orderItems,
+//     paymentInfo,
+//     itemsPrice,
+//     taxPrice,
+//     shippingPrice,
+//     totalPrice,
+//     paidAt: Date.now(),
+//     user: req.user._id,
+//   });
+
+//   res.status(201).json({
+//     success: true,
+//     order,
+//   });
+// });
+
 exports.newOrder = catchAsyncErrors(async (req, res, next) => {
   const {
     shippingInfo,
@@ -15,15 +44,27 @@ exports.newOrder = catchAsyncErrors(async (req, res, next) => {
     totalPrice,
   } = req.body;
 
+  // COD check
+  let paidAt = null;
+  let paymentStatus = "COD"; // default
+
+  if (paymentInfo?.method && paymentInfo.method !== "COD") {
+    paidAt = Date.now();
+    paymentStatus = paymentInfo.status || "Paid";
+  }
+
   const order = await Order.create({
     shippingInfo,
     orderItems,
-    paymentInfo,
+    paymentInfo: {
+      ...paymentInfo,
+      status: paymentStatus,
+    },
     itemsPrice,
     taxPrice,
     shippingPrice,
     totalPrice,
-    paidAt: Date.now(),
+    paidAt,
     user: req.user._id,
   });
 

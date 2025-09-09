@@ -43,7 +43,10 @@ export const login = (email, password) => async (dispatch) => {
   try {
     dispatch({ type: LOGIN_REQUEST });
 
-    const config = { headers: { "Content-Type": "application/json" } };
+    const config = {
+      headers: { "Content-Type": "application/json" },
+      withCredentials: true,
+    };
 
     const { data } = await axios.post(
       `/api/v1/login`,
@@ -57,12 +60,35 @@ export const login = (email, password) => async (dispatch) => {
   }
 };
 
+// // Register
+// export const register = (userData) => async (dispatch) => {
+//   try {
+//     dispatch({ type: REGISTER_USER_REQUEST });
+//     console.log("Avatar being sent to backend:", userData.get("avatar"));
+
+//     const config = { headers: { "Content-Type": "multipart/form-data" } };
+
+//     const { data } = await axios.post(`/api/v1/register`, userData, config);
+
+//     dispatch({ type: REGISTER_USER_SUCCESS, payload: data.user });
+//   } catch (error) {
+//     dispatch({
+//       type: REGISTER_USER_FAIL,
+//       payload: error.response.data.message,
+//     });
+//   }
+// };
+
 // Register
 export const register = (userData) => async (dispatch) => {
   try {
     dispatch({ type: REGISTER_USER_REQUEST });
+    console.log("Avatar being sent to backend:", userData.get("avatar"));
 
-    const config = { headers: { "Content-Type": "multipart/form-data" } };
+    const config = {
+      headers: { "Content-Type": "multipart/form-data" },
+      withCredentials: true, // ✅ yaha add karo
+    };
 
     const { data } = await axios.post(`/api/v1/register`, userData, config);
 
