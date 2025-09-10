@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MERN E-COMMERCE TUTORIAL
 
 Hi! My name is **Abhishek Singh**, I have created this tutorial to teach MERN Stack for free on YouTube.
@@ -45,3 +46,7 @@ _fill each filed with your info respectively_
 **YouTube** Click [Here](https://www.youtube.com/channel/UCO7afj9AUo0zV69pqEYhcjw/) **6 Pack Programmer**
 **LinkedIn** Click [Here](https://in.linkedin.com/in/meabhisingh) **@meAbhiSingh**
 **Twitter** Click [Here](https://twitter.com/meAbhi_Singh) **@meAbhi_Singh**
+=======
+# MernProjectEcommerce
+A full-stack eCommerce application built with the MERN stack (MongoDB, Express, React, Node.js). This project allows users to browse products, view details, register/login, add items to cart, place orders with Cash on Delivery (COD) &amp; UPI options, and manage their profile. Admins can manage products, orders, and users from the dashboard.
+>>>>>>> f8d661c037dd7e0eaf1abcfbbeb3bf5886d756eb
